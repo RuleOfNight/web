@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1080px;
+    margin: 0px auto;
+    
+}
+.navbar ul li{
+    justify-content: space-between;
+    display: inline;
+    margin-left: 20px;
+}
+#row1{
+    background-color: white;
+}
+#discount {
+    position: relative;
+    left: 970px;
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    font: 17px solid;
+    color: red;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgb(186, 185, 185);
+}
+.navbar{
+    background-color: red;
+    height: 50px;
+}
+
+.navbar ul li{
+    position: relative;
+    top: 15px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.right-navbar{
+    float: right;
+    position: relative;
+    bottom: 20px;
+}
+#title{
+    text-align: center;
+    color: red;
+    margin-top: 30px;
+    font-size: 60px;
+}
+hr{
+    width: 800px;
+    margin-left: 150px;
+    border: 2px solid red;
+}
+.navbar2 ul{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.navbar2 ul li{
+    list-style: none;
+}
+.navbar2 a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+#choice{
+    color: white;
+    position: relative;
+    top: 5px;
+    left:30px;
+    font-size: 23px;
+
+}
+#choice2{
+    width: 120px;
+    height: 40px;
+    border-radius: 7px;
+    background-color: red;
+    color: white;
+    position: relative;
+    bottom: 8px;
+    box-shadow: 2px 2px 5px grey;
+}
+.vd{
+    display: flex;
+    justify-content: space-between;
+}
+.vd1{
+    border: 2px solid;
+    border-radius: 9px;
+    box-shadow: 2px 2px 5px grey;
+}
+.vd h2{
+    text-align: center;
+    color: red;
+}
+.vd p{
+    text-align: center;
+}
+.more{
+    margin-top: 20px;
+    margin-left: 430px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 9px;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.center{
+    display: flex;
+}
+.center-text{
+    position: relative;
+    top: 150px;
+    font-size: 25px;
+    
+}
+.center-text a{
+    text-decoration: none;
+    color: grey;
+}
+.center-text li{
+    margin-top: 20px;
+}
+.buynow{
+    margin-left: 500px;
+    font-size: 25px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    width: 230px;
+    height: 50px;
+    border: none;
+    border-radius: 9px;
+    box-shadow: 2px 2px 5px grey;
+}
+.tintuc{
+    font-size: 25px;
+    color: rgb(76, 76, 76);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.news{
+    display: flex;
+}
+.news img{
+    width: 300px;
+}
+.news2{
+    border: 2px solid;
+}
+.news2 h3{
+    width: 320px;
+}
+.news2 a{
+    width: 320px;
+}
